@@ -24,10 +24,10 @@
 
 package me.zhengjin.common.customs.business.cbi.invtRefund.po.result
 
+import com.fasterxml.jackson.annotation.JsonIgnore
 import me.zhengjin.common.core.jpa.comment.annotation.JpaComment
 import me.zhengjin.common.customs.business.cbi.invtRefund.po.declare.IInvtRefundHead
 import me.zhengjin.common.customs.po.ReturnContentBaseEntity
-import com.fasterxml.jackson.annotation.JsonIgnore
 import org.hibernate.annotations.Where
 import javax.persistence.Column
 import javax.persistence.ConstraintMode

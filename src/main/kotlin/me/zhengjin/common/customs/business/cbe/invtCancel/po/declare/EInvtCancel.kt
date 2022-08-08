@@ -24,10 +24,10 @@
 
 package me.zhengjin.common.customs.business.cbe.invtCancel.po.declare
 
+import com.fasterxml.jackson.annotation.JsonIgnore
 import me.zhengjin.common.core.jpa.comment.annotation.JpaComment
 import me.zhengjin.common.customs.business.cbe.invtCancel.po.result.EInvtCancelReturn
 import me.zhengjin.common.customs.po.DeclareContentBaseEntity
-import com.fasterxml.jackson.annotation.JsonIgnore
 import javax.persistence.CascadeType
 import javax.persistence.Column
 import javax.persistence.Entity

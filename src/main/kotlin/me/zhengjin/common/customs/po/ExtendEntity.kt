@@ -24,13 +24,13 @@
 
 package me.zhengjin.common.customs.po
 
+import com.fasterxml.jackson.annotation.JsonIgnore
 import me.zhengjin.common.core.entity.BaseEntity
 import me.zhengjin.common.customs.business.cbe.summaryResult.po.result.ESummaryResultHead
 import me.zhengjin.common.customs.business.cbi.tax.po.result.ITaxHead
 import me.zhengjin.common.customs.business.cbi.tax.po.result.ITaxHeadStatus
 import me.zhengjin.common.customs.message.CEBMessage
 import me.zhengjin.common.customs.message.MessageReturn
-import com.fasterxml.jackson.annotation.JsonIgnore
 import javax.persistence.Column
 import javax.persistence.MappedSuperclass
 import javax.xml.bind.annotation.XmlAccessType

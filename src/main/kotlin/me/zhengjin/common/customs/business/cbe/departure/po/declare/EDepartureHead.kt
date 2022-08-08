@@ -24,11 +24,11 @@
 
 package me.zhengjin.common.customs.business.cbe.departure.po.declare
 
+import com.fasterxml.jackson.annotation.JsonIgnore
 import me.zhengjin.common.core.jpa.comment.annotation.JpaComment
 import me.zhengjin.common.customs.base.xmlDateAdapter.DateAdapter2
 import me.zhengjin.common.customs.business.cbe.departure.po.result.EDepartureReturn
 import me.zhengjin.common.customs.po.DeclareContentBaseEntity
-import com.fasterxml.jackson.annotation.JsonIgnore
 import java.util.Date
 import java.util.Objects
 import javax.persistence.CascadeType

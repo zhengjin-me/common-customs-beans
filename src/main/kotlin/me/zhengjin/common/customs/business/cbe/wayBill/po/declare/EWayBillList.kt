@@ -24,9 +24,9 @@
 
 package me.zhengjin.common.customs.business.cbe.wayBill.po.declare
 
+import com.fasterxml.jackson.annotation.JsonIgnore
 import me.zhengjin.common.core.entity.BaseEntity
 import me.zhengjin.common.core.jpa.comment.annotation.JpaComment
-import com.fasterxml.jackson.annotation.JsonIgnore
 import javax.persistence.Column
 import javax.persistence.ConstraintMode
 import javax.persistence.Entity

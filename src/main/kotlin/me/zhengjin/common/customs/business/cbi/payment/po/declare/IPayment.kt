@@ -24,11 +24,11 @@
 
 package me.zhengjin.common.customs.business.cbi.payment.po.declare
 
+import com.fasterxml.jackson.annotation.JsonIgnore
 import me.zhengjin.common.core.jpa.comment.annotation.JpaComment
 import me.zhengjin.common.customs.base.xmlDateAdapter.DateAdapter2
 import me.zhengjin.common.customs.business.cbi.payment.po.result.IPaymentReturn
 import me.zhengjin.common.customs.po.DeclareContentBaseEntity
-import com.fasterxml.jackson.annotation.JsonIgnore
 import org.hibernate.annotations.Where
 import java.math.BigDecimal
 import java.util.Date

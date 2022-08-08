@@ -24,11 +24,11 @@
 
 package me.zhengjin.common.customs.message
 
+import com.fasterxml.jackson.annotation.JsonProperty
 import me.zhengjin.common.customs.client.dxp.TransInfo
 import me.zhengjin.common.customs.message.extend.BaseSubscribe
 import me.zhengjin.common.customs.message.extend.BaseTransfer
 import me.zhengjin.common.customs.message.extend.ExtendMessage
-import com.fasterxml.jackson.annotation.JsonProperty
 import java.io.Serializable
 import javax.xml.bind.annotation.XmlAttribute
 import javax.xml.bind.annotation.XmlElement

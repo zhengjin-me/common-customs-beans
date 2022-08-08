@@ -24,10 +24,10 @@
 
 package me.zhengjin.common.customs.business.cbe.arrival.po.declare
 
+import com.fasterxml.jackson.annotation.JsonIgnore
 import me.zhengjin.common.core.jpa.comment.annotation.JpaComment
 import me.zhengjin.common.customs.business.cbe.arrival.po.result.EArrivalReturn
 import me.zhengjin.common.customs.po.DeclareContentBaseEntity
-import com.fasterxml.jackson.annotation.JsonIgnore
 import java.io.Serializable
 import java.util.Objects
 import javax.persistence.CascadeType

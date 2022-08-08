@@ -24,9 +24,9 @@
 
 package me.zhengjin.common.customs.business.cbi.inventory.po.declare
 
+import com.fasterxml.jackson.annotation.JsonIgnore
 import me.zhengjin.common.core.entity.BaseEntity
 import me.zhengjin.common.core.jpa.comment.annotation.JpaComment
-import com.fasterxml.jackson.annotation.JsonIgnore
 import org.hibernate.annotations.Where
 import java.math.BigDecimal
 import javax.persistence.Column

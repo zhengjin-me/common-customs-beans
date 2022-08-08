@@ -24,10 +24,10 @@
 
 package me.zhengjin.common.customs.business.cbe.order.po.declare
 
+import com.fasterxml.jackson.annotation.JsonIgnore
 import me.zhengjin.common.core.jpa.comment.annotation.JpaComment
 import me.zhengjin.common.customs.business.cbe.order.po.result.EOrderReturn
 import me.zhengjin.common.customs.po.DeclareContentBaseEntity
-import com.fasterxml.jackson.annotation.JsonIgnore
 import java.math.BigDecimal
 import java.util.Objects
 import javax.persistence.CascadeType
