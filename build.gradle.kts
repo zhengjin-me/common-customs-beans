@@ -234,4 +234,9 @@ tasks {
     withType<Sign>().configureEach {
         onlyIf { ext["isReleaseVersion"] as Boolean }
     }
+
+    // 纯kotlin项目, 可以直接生成dokka文档
+    javadoc {
+        enabled = false
+    }
 }
