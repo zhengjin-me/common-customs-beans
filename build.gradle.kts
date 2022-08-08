@@ -94,7 +94,7 @@ publishing {
             pom {
                 name.set(project.name)
                 description.set(project.name)
-                url.set("https://github.com/zhengjin-me/common-core")
+                url.set("https://github.com/zhengjin-me/common-customs-beans")
                 licenses {
                     license {
                         name.set("MIT License")
@@ -109,7 +109,7 @@ publishing {
                     }
                 }
                 scm {
-                    url.set("https://github.com/zhengjin-me/common-core")
+                    url.set("https://github.com/zhengjin-me/common-customs-beans")
                 }
                 versionMapping {
                     usage("java-api") {
